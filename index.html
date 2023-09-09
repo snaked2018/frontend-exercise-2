@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+<div class="wrapper">
+  <div class="left-container">
+    <div class="title">
+      Your Result
+    </div>
+    <div class="score-container">
+      <div class="score">
+        <div class="score-num">
+          <span class="score-tile">76</span>
+          <span class="score-total">of 100</span>
+        </div>  
+      </div>
+      <span class="great"><h2>Great</h2></span>
+    </div>
+    <span class="left-container-desciption">
+      You scored higher than 65% of the people who have taken these tests.
+    </span>
+  </div>
+  <div class="right-container">
+    <h1>Summary</h1>
+    <div class="flex-reaction">
+      <img class="img-reaction" src="assets/images/icon-reaction.svg" alt="">
+      <span class="red-color">Reaction</span>
+      <span class="fine-color">80 <strong>/ 100</strong></span>
+    </div>
+    <div class="flex-memory">
+      <img class="img-memory" src="assets/images/icon-memory.svg" alt="">
+      <span class="yellow-color">Memory</span>
+      <span class="fine-color">92 <strong>/ 100</strong></span>
+    </div>
+    <div class="flex-verbal">
+      <img class="img-verbal" src="assets/images/icon-verbal.svg" alt="">
+      <span class="green-color">Verbal</span>
+      <span class="fine-color">61 <strong>/ 100</strong></span>
+    </div>
+    <div class="flex-visual">
+      <img class="img-visual" src="assets/images/icon-visual.svg" alt="">
+      <span class="blue-color">Visual</span>
+      <span class="fine-color">72 <strong>/ 100</strong></span>
+    </div>
+    <button class="button">Continue</button>
+  </div>
+</div>
+</main>
+</body>
+</html>
