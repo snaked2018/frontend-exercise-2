@@ -199,7 +199,7 @@ button {
     font-size: 15px;
     background-color: #303b59;
     color: white;
-    
+    cursor: pointer;
 }
 .red-color {
     color: var(--clr-primary-600);
